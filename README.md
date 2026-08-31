@@ -13,6 +13,7 @@ install.packages(
   "bixverse",
   repos = c("https://gregorlueg.r-universe.dev", "https://cloud.r-project.org")
 )
+```
 
 manifoldsR is here because it is a hard Imports: of bixverse and is not on
 CRAN, so bixverse cannot resolve its dependencies without it.
