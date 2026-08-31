@@ -1,0 +1,17 @@
+[
+  {
+    "package": "manifoldsR",
+    "url": "https://github.com/GregorLueg/manifoldsR",
+    "branch": "*release"
+  },
+  {
+    "package": "bixverse",
+    "url": "https://github.com/GregorLueg/bixverse",
+    "branch": "*release"
+  },
+  {
+    "package": "bixverse.plots",
+    "url": "https://github.com/GregorLueg/bixverse.plots",
+    "branch": "*release"
+  }
+]
