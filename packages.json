@@ -13,5 +13,10 @@
     "package": "bixverse.plots",
     "url": "https://github.com/GregorLueg/bixverse.plots",
     "branch": "*release"
+  },
+  {
+    "package": "genewalkR",
+    "url": "https://github.com/GregorLueg/genewalkR",
+    "branch": "*release"
   }
 ]
