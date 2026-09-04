@@ -15,6 +15,11 @@
     "branch": "*release"
   },
   {
+    "package": "bixverse.gpu",
+    "url": "https://github.com/GregorLueg/bixverse.gpu",
+    "branch": "*release"
+  },
+  {
     "package": "genewalkR",
     "url": "https://github.com/GregorLueg/genewalkR",
     "branch": "*release"
