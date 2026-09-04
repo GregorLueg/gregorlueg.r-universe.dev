@@ -7,7 +7,7 @@
   {
     "package": "bixverse",
     "url": "https://github.com/GregorLueg/bixverse",
-    "branch": "*release"
+    "branch": "main"
   },
   {
     "package": "bixverse.plots",
@@ -17,7 +17,7 @@
   {
     "package": "bixverse.gpu",
     "url": "https://github.com/GregorLueg/bixverse.gpu",
-    "branch": "*release"
+    "branch": "main"
   },
   {
     "package": "genewalkR",
