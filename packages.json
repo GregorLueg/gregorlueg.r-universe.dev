@@ -7,7 +7,7 @@
   {
     "package": "bixverse",
     "url": "https://github.com/GregorLueg/bixverse",
-    "branch": "main"
+    "branch": "*release"
   },
   {
     "package": "bixverse.plots",
