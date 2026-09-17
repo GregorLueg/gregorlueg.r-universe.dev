@@ -23,5 +23,10 @@
     "package": "genewalkR",
     "url": "https://github.com/GregorLueg/genewalkR",
     "branch": "*release"
+  },
+  {
+    "package": "devforge",
+    "url": "https://github.com/GregorLueg/devforge",
+    "branch": "main"
   }
 ]
