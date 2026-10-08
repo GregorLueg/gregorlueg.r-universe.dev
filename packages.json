@@ -28,5 +28,10 @@
     "package": "devforge",
     "url": "https://github.com/GregorLueg/devforge",
     "branch": "main"
+  },
+  {
+    "package": "annsearchR",
+    "url": "https://github.com/GregorLueg/annsearchR",
+    "branch": "*release"
   }
 ]
