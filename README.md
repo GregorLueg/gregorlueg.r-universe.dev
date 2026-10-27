@@ -17,23 +17,23 @@ install.packages(
 
 ## Packages
 
-| Package | What it is | Tracks |
-|---|---|---|
-| [bixverse](https://github.com/GregorLueg/bixverse) | Rust-accelerated bioinformatics and computational biology workflows | `main` |
-| [bixverse.plots](https://github.com/GregorLueg/bixverse.plots) | Plotting functions for bixverse | `*release` |
-| [bixverse.gpu](https://github.com/GregorLueg/bixverse.gpu) | GPU methods via cubecl and WGPU: k-means, correlations and single cell acceleration | `main` |
-| [manifoldsR](https://github.com/GregorLueg/manifoldsR) | Fast low-dimensional embeddings and clustering via Rust | `*release` |
-| [annsearchR](https://github.com/GregorLueg/annsearchR) | Fast approximate nearest neighbour search | `*release` |
-| [genewalkR](https://github.com/GregorLueg/genewalkR) | Graph algorithms: diffusions and small neural networks like node2vec | `main` |
-| [devforge](https://github.com/GregorLueg/devforge) | Development tooling for the bixverse family | `main` |
+| Package | What it is |
+|---|---|
+| [bixverse](https://github.com/GregorLueg/bixverse) | Rust-accelerated bioinformatics and computational biology workflows |
+| [bixverse.plots](https://github.com/GregorLueg/bixverse.plots) | Plotting functions for bixverse |
+| [bixverse.gpu](https://github.com/GregorLueg/bixverse.gpu) | GPU methods via cubecl and WGPU: k-means, correlations and single cell acceleration |
+| [manifoldsR](https://github.com/GregorLueg/manifoldsR) | Fast low-dimensional embeddings and clustering via Rust |
+| [annsearchR](https://github.com/GregorLueg/annsearchR) | Fast approximate nearest neighbour search |
+| [genewalkR](https://github.com/GregorLueg/genewalkR) | Graph algorithms: diffusions and small neural networks like node2vec |
+| [devforge](https://github.com/GregorLueg/devforge) | Development tooling for the bixverse family |
 
 manifoldsR is a hard Imports: of bixverse and bixverse.gpu, and isn't on CRAN,
 so neither resolves its dependencies without this universe. bixverse.plots and
 bixverse.gpu both import bixverse.
 
-The `*release` repos auto-tag on a DESCRIPTION version bump gated behind a green
-R-CMD-check, so those packages only move when a version has passed CI. The
-`main` ones move on every commit to `main`.
+Everything tracks `*release`. The repos auto-tag on a DESCRIPTION version bump
+gated behind a green R-CMD-check, so the universe only moves when a version has
+passed CI.
 
 r-universe's Linux binaries are ubuntu:latest for r-release and r-devel only.
 Off that combination you get a source build from here. Linux binaries with a
